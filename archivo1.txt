@@ -1,0 +1,34 @@
+@alfa : $i,$j,$prom;
+$i :: 1;
+$prom :: 100;
+@delta : $entrar;
+$entrar :: 0;
+fi[4<5 && $prom>0 && !$entrar]{
+	omega[<<Hola mundo \n>>];
+}psi{
+	omega[<<Adios mundo \n>>];
+}
+
+fi[!$entrar]{
+	omega[<<entrando>>];
+}
+
+omega[(1+2)-(10.5*15.6)+20];
+
+$prom :: $prom + $i; 
+eta[$i, 1, 2, 1]{	
+	omega[<<Tabla de multiplicar del >>:$i:<<\n>>];
+	eta[$j, 1, 10, 1]{
+		omega[$i:<<*>>:$j:<<:>>:($i*$j):<<\n>>];
+	}
+	omega[<<\n>>];
+}
+$i :: 1;
+tau[$i<5]{
+	omega[<<paso:>>:$i:<<\n>>];
+	$i :: $i +1;
+}
+
+
+@beta : $cadena_texto;
+sigma[$prom:$cadena_texto];
